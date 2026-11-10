@@ -35,3 +35,10 @@ The implementation in this repository is newly authored for this portfolio and i
 
 ## License
 No license has been added yet. Add a license before redistributing this repository.
+
+## Time-Series Research Checklist
+
+- Use chronological splits and rolling or expanding-window backtests to avoid future-data leakage.
+- Compare any model with a transparent baseline such as a naïve or moving-average forecast.
+- Report return and volatility calculations with clear frequency and adjustment assumptions.
+- Historical patterns do not guarantee future performance; this project is for analysis and education, not investment advice.
